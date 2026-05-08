@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 
-import Navbar from './Components/Navbar/Navbar'
+import Navbar from './Components/NavBar/NavBar'
 import Hero from './Components/Hero/Hero'
 import Products from './Components/Products/Products'
 import TopProducts from './Components/TopProducts/TopProducts'
