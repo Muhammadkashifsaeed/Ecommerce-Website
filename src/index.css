@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ed8936;
+  --color-secondary: #ed8936;
+  --color-gray-900: #1a1a1a;
+  --color-gray-100: #f3f4f6;
+  --color-slate-950: #020617;
+  --color-white: #ffffff;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-gray-900);
+}
